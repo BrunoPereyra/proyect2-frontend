@@ -1,0 +1,20 @@
+.presentation-page-root {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    max-height: max-content;
+    flex-direction: column;
+}
+
+.presentation-page-root-logo {
+    height: max-content;
+}
+
+.form_login_section {
+    height: 100px;
+    width: 80%;
+}
+
+#Form_login_form {
+    width: 300px;
+}
