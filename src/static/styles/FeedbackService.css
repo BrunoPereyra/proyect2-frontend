@@ -1,0 +1,40 @@
+.FeedbackService_section {}
+
+#FeedbackService_map_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.feedbackService_map_User {
+    display: flex;
+    align-items: center;
+}
+
+#feedbackService_map_avatar_user {
+    width: 12%;
+    height: 44px;
+    border-radius: 40%;
+}
+
+.FeedbackService_map_div_comment {
+    width: 87%;
+    margin-left: 14%;
+}
+
+.feedbackService_map_User_data {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.feedbackService_map_User_data_star_date{
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+    font-size: 12px;
+    align-items: center;
+}
+#Profile_description_user{
+    margin-top: 20px;
+}

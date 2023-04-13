@@ -1,0 +1,269 @@
+#Searchservice_select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #444a60;
+}
+
+#Searchservice_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#Searchservice_header {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 76px;
+}
+
+#form_searchServcice {
+    display: flex;
+    width: 90%;
+    height: 27%;
+    justify-content: center;
+}
+
+
+#form_searchServcice_div_inputlabel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#input_refService {
+    border: 1px solid #d1efff;
+    border-radius: 10px;
+
+    /* background-color: rgba(0, 0, 0, 0.157); */
+}
+
+#label_refService {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -25px;
+    width: auto;
+}
+
+#label_refService>img {
+    width: 14px;
+    height: 14px;
+}
+
+#search_result_content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Search_Result_Map {
+    display: flex;
+    background-color: #ffffffcc;
+    box-shadow: 0px 0px 3px 0px #d1efff, 0px 0px 9px 1px #d1efff;
+    border-radius: 10px;
+    width: 85%;
+    min-height: 50px;
+    margin: 7px;
+    padding: 11px;
+
+}
+
+#Search_Result_divtheimg {
+    max-width: 142px;
+    min-width: 132px;
+    height: auto;
+    margin: 2px;
+    margin-right: 35px;
+}
+
+#Search_Result_img {
+    border-radius: 10px;
+}
+
+.Search_Result_nameservice {
+    overflow-wrap: anywhere;
+}
+
+.Search_Result_show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.Search_Result_Component {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.stars_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 43%;
+}
+
+.react-stars {
+    display: flex;
+}
+
+.react-stars>span {
+    width: 10px;
+}
+
+.search_result_map_id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px;
+    width: 86%;
+    box-shadow: 0px 1px 6px #d1efff;
+}
+
+.search_result_map_id>h2 {
+    font-size: 24px;
+    line-height: 130%;
+    padding: 8px;
+    color: #444a60;
+    overflow-wrap: break-word;
+}
+
+.search_result_map_id_otherData {
+    display: flex;
+    flex-direction: row;
+    height: 26px;
+    align-items: center;
+}
+.search_result_map_id_dataTheUserTheService{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.search_result_map_id_dataTheUserTheService > h5{
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
+.search_result_map_id_dataTheUserTheService > img {
+    width: 35px;
+    height: 30px;
+    border-radius: 95px;
+}
+
+.search_result_map_id_ask_about_service {
+    border-bottom: 1px solid #81a1b330;
+    border-top: 1px solid #81a1b330;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ebf8ff33;
+}
+.search_result_map_id_ask_about_service > h4{
+    text-align: center;
+}
+
+.search_result_map_id_imgService {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_result_map_id_imgService>img {
+    max-width: 292px;
+    min-height: 110px;
+}
+
+.short-container {
+    width: 14%;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.short-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #d1efff;
+    box-shadow: 0px 0px 3px 0px #d1efff, 0px 0px 9px 1px #d1efff;
+    border-radius: 14px;
+}
+
+.ServiceSearch_fullscreen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d1baba;
+}
+
+.ServiceSearch_input-container {
+    width: 80%;
+    height: 84px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.ServiceSearch_input-container>input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(52, 35, 35);
+    margin: 10px;
+    background-color: #ffffff;
+    /* Reemplaza #ffffff con el color de fondo del contenedor */
+}
+
+.ServiceSearch_input-container>input[type="checkbox"]:checked {
+    background-color: #11db40;
+    /* Reemplaza #000000 con el color de fondo que deseas cuando se selecciona el checkbox */
+    border-color: #11db40;
+    /* Reemplaza #000000 con el color del borde que deseas cuando se selecciona el checkbox */
+}
+
+.ServiceSearch_input-container>label {
+    display: flex;
+    align-items: center;
+}
+.search_result_map_id_FeedbackService{
+    
+}

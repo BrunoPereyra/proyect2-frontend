@@ -1,0 +1,45 @@
+.subscription {
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+}
+
+.subscription h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.subscription ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.subscription li {
+    margin-bottom: 10px;
+}
+
+.subscription button {
+    background-color: #00c4cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.subscription button:hover {
+    background-color: #00a5ad;
+}

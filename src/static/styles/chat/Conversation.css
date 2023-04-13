@@ -1,0 +1,26 @@
+.conversation_message_Id{
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+.conversation_senderId{
+    display: flex;
+    padding: 5px 15px;
+    width: 90%;
+    word-wrap: break-word;
+    text-align: inherit;
+    justify-content: flex-end;
+}
+.conversation_recipientId{
+    padding: 5px 15px;
+    text-align: end;
+    width: 80%;
+    align-self: start;
+    word-wrap: break-word;
+    text-align: inherit;
+
+}
+.conversation_senderId_message{
+    width: inherit;
+}

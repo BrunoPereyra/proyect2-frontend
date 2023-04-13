@@ -1,0 +1,127 @@
+#Create_Service_section {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+#Create_Service_form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Create_Service_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 431px;
+    min-width: 400px;
+    height: 10%;
+    justify-content: center;
+    margin: auto;
+    animation: 0.5s;
+}
+
+.Create_Service_inputs>label {
+    display: flex;
+    text-align: revert;
+    padding: 10px 0px 0px 28px;
+}
+
+.TextareaAutosize_inputs {
+    max-width: 400px;
+    max-height: 200px;
+    min-width: 151px;
+    min-height: 66px;
+    padding: 9px 0px 6px 14px;
+    box-shadow: 0px 0px 3px 0px #d1efff, 0px 0px 9px 1px #d1efff;
+    border-radius: 10px;
+    border: #ffff;
+    background-color: #c0c8df0d;
+    animation: 0.5s;
+}
+
+.Create_Service_inputs_animation {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.Create_Service_inputs>textarea:focus {
+    border: 1px solid #d30000;
+}
+
+#Create_Service_section>button {
+    width: max-content;
+    height: max-content;
+}
+
+.Create_Service_v2_agregarServicio_button {
+    width: max-content;
+    height: max-content;
+}
+
+#Create_Service_v2_table {
+    border-collapse: collapse;
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Create_Service_v2_thead_fixed {
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+}
+.Create_Service_v2_thead_fixed > tr {
+    display: flex;
+    flex-direction: column;
+}
+.th_table_servicio {
+    width: 90px;
+}
+
+.th_table {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: auto;
+}
+.FilaServicio{
+    display: flex;
+    flex-direction: column;
+}
+.th_table>input {
+    width: auto;
+    border: none;
+}
+
+/* .th_table>input[name="servicio"] {
+    border: none;
+    width: 55px;
+}
+.th_table>input[name="descripcion"] {
+    border: none;
+    width: 100%;
+}
+.th_table>input[name="precio"] {
+    border: none;
+    width: 41px;
+}
+.th_table>input[name="tiempoEntrega"] {
+    border: none;
+    width: 55px;
+}
+.th_table>button{
+    border: none;
+    width: 60px; */
+/* } */
+tbody {
+    height: max-content;
+}
